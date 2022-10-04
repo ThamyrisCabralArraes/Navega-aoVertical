@@ -7,14 +7,17 @@ ul {
     padding: 0;
 }
 ul a {
-    border: 1px red solid;
-    width: 400px;
+    width: 200px;
     text-decoration: none;
     height: 40px;
     display: block;
-    background: url(imagens/menu.png);
+    color:  #000;
+    text-indent: 40px;
+    line-height: 40px;
+    background: rgb(114, 4, 4) url(imagens/menu.png) no-repeat left;
 }
-li {
-    padding: 10px 20px;
-    
+a:hover, .selecionado a  {
+    background-position: right bottom;
+    color: #fff;
+    background-color: rgb(247, 117, 10);
 }
