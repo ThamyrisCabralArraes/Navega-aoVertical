@@ -16,7 +16,7 @@ ul a {
     line-height: 40px;
     background: rgb(114, 4, 4) url(imagens/menu.png) no-repeat left;
 }
-a:hover, .selecionado a  {
+a:hover, #navegacao .selecionado a  {
     background-position: right bottom;
     color: #fff;
     background-color: rgb(247, 117, 10);
